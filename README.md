@@ -45,7 +45,7 @@ You must give a full effort on every group and individual project.
 ## Important Links And Notes
 
 
-[Slack Room insert link here]
+[Slack](uncc-03-06-18.slack.com)  
 
 -----------------------------------------
 
