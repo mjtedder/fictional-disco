@@ -5,7 +5,13 @@
 
 
 -----------------------------------------
+## Quick Links  
 
+#### Homework  
+
+**Week 1**     
+[HTML/CSS Easy](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/blob/master/01-html-git-css/02-Homework/Instructions/easier-homework-assignment.md)    
+[HTML/CSS Challenge](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/blob/master/01-html-git-css/02-Homework/Instructions/recommended-homework-assignment.md)  
 
 ## Minimum Requirements
 
