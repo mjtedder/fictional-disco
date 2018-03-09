@@ -61,6 +61,82 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 
 Please see bootcampspot-v2.com
 
+|                                              |           |    | 
+|----------------------------------------------|-----------|----| 
+| The Zen of Coding                            | 3/6/2018  | T  | 
+| Git'n Pro with HTML/CSS                      | 3/8/2018  | Th | 
+| Web Be Stylin'                               | 3/10/2018 | S  | 
+| Going Live                                   | 3/13/2018 | T  | 
+| Heroes of CSS                                | 3/15/2018 | Th | 
+| Pulled Up By Your Bootstrap                  | 3/17/2018 | S  | 
+| Joys of JavaScript                           | 3/20/2018 | T  | 
+| Jumping for JavaScript                       | 3/22/2018 | Th | 
+| JavaScript Juggernauts                       | 3/24/2018 | S  | 
+| jQuery Begins                                | 3/27/2018 | T  | 
+| jQuery Jubilee                               | 3/29/2018 | Th | 
+| jQuery Calculator                            | 3/31/2018 | S  | 
+| Staying On JavaScript                        | 4/3/2018  | T  | 
+| JINKIES! It's More JavaScript!               | 4/5/2018  | Th | 
+| JavaScript Jitters                           | 4/7/2018  | S  | 
+| Intro to APIs and AJAX                       | 4/10/2018 | T  | 
+| Real-World API Application Development       | 4/12/2018 | Th | 
+| APIs & AJAX                                  | 4/14/2018 | S  | 
+| Client-Side Storage & Firebase               | 4/17/2018 | T  | 
+| Client-Side Storage & Firebase               | 4/19/2018 | Th | 
+| Client-Side Storage & Firebase               | 4/21/2018 | S  | 
+| Project Week                                 | 4/24/2018 | T  | 
+| Project Week                                 | 4/26/2018 | Th | 
+| Project Week                                 | 4/28/2018 | S  | 
+| Project Week                                 | 5/1/2018  | T  | 
+| Project Week                                 | 5/3/2018  | Th | 
+| Project Week                                 | 5/5/2018  | S  | 
+| New to Node                                  | 5/8/2018  | T  | 
+| Nother Level of Node                         | 5/10/2018 | Th | 
+| Next Node                                    | 5/12/2018 | S  | 
+| Jealous of Your JavaScript Skills            | 5/15/2018 | T  | 
+| Picking Up the Java-Scraps                   | 5/17/2018 | Th | 
+| Node Another JavaScript Day!                 | 5/19/2018 | S  | 
+| Messing With MySQL                           | 5/22/2018 | T  | 
+| Node Gets a SQL                              | 5/24/2018 | Th | 
+| My-Massive-SQL                               | 5/31/2018 | Th | 
+| Node Servers & Express.js                    | 6/2/2018  | S  | 
+| Express Yourself                             | 6/5/2018  | T  | 
+| Express-Oh                                   | 6/7/2018  | Th | 
+| I Can Make an App with Some Handlebars       | 6/9/2018  | S  | 
+| Bringing it from the Front to the Back       | 6/12/2018 | T  | 
+| The Power of the ORM                         | 6/14/2018 | Th | 
+| The Sequel to MySQL                          | 6/16/2018 | S  | 
+| Getting In The CRUD with Sequelize           | 6/19/2018 | T  | 
+| Getting Associated with Relations            | 6/21/2018 | Th | 
+| Test Your Patience                           | 6/23/2018 | S  | 
+| Sweet Dreams with Nightmare.js               | 6/26/2018 | T  | 
+| Test-Driven Development                      | 6/28/2018 | Th | 
+| Project Week                                 | 6/30/2018 | S  | 
+| Project Week                                 | 7/3/2018  | T  | 
+| Project Week                                 | 7/7/2018  | S  | 
+| Masters of MongoDB                           | 7/10/2018 | T  | 
+| Web Scraping and Server-Side Mongo           | 7/12/2018 | Th | 
+| Riding with Mongoose                         | 7/14/2018 | S  | 
+| An ES6travaganza                             | 7/17/2018 | T  | 
+| Intro to React, Components and JSX           | 7/19/2018 | Th | 
+| State, Props, and Forms                      | 7/21/2018 | S  | 
+| AJAX, Conditional Rendering and React Router | 7/24/2018 | T  | 
+| MERN                                         | 7/26/2018 | Th | 
+| React.js / Intro to Project #3               | 7/28/2018 | S  | 
+| Introduction to C Sharp                      | 7/31/2018 | T  | 
+| Intro to ASP.NET MVC                         | 8/2/2018  | Th | 
+| More on Modules                              | 8/4/2018  | S  | 
+| Basics of Algorithms                         | 8/7/2018  | T  | 
+| Sorting Algorithms                           | 8/9/2018  | Th | 
+| Big O & Data Structures                      | 8/11/2018 | S  | 
+| Portfolios & Project Work                    | 8/14/2018 | T  | 
+| Portfolios & Project Work                    | 8/16/2018 | Th | 
+| Portfolios & Project Work                    | 8/18/2018 | S  | 
+| Final Projects                               | 8/21/2018 | T  | 
+| Final Projects                               | 8/23/2018 | Th | 
+| Final Projects                               | 8/25/2018 | S  | 
+
+
 ##### The material covered in this syllabus is subject to change. Our academic team adjusts to the market rapidly.
 
 -----------------------------------------
