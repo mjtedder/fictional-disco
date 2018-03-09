@@ -58,6 +58,15 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 
 
 -----------------------------------------
+
+## Class Resource Videos
+
+#### Unit 1 - HTML, CSS, GIT
+[Complete Playlist (Activities)](https://www.youtube.com/watch?v=ieb6Svbc10E&list=PLgJ8UgkiorClK-ZG5jYqbdgOD2DRHROkT)
+
+
+
+-----------------------------------------
 ## Technical Curriculum by Week
 
 Please see bootcampspot-v2.com
