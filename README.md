@@ -46,6 +46,7 @@ You must give a full effort on every group and individual project.
 
 
 [Slack](uncc-03-06-18.slack.com)  
+[Class Recordings](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderSets=3&folderID=%22037a1f6f-bb4c-4158-af71-a89a018419e6%22)
 
 -----------------------------------------
 
