@@ -75,10 +75,10 @@ Please see bootcampspot-v2.com
 |----------------------------------------------|-----------|----| 
 | The Zen of Coding                            | 3/6/2018  | T  | 
 | Git'n Pro with HTML/CSS                      | 3/8/2018  | Th | 
-| Web Be Stylin'                               | 3/10/2018 | S  | 
+| Heros of CSS                                 | 3/10/2018 | S  | 
 | Going Live                                   | 3/13/2018 | T  | 
-| Heroes of CSS                                | 3/15/2018 | Th | 
-| Pulled Up By Your Bootstrap                  | 3/17/2018 | S  | 
+| Down and Dirty CSS                           | 3/15/2018 | Th | 
+| Behold Bootstrap!                            | 3/17/2018 | S  | 
 | Joys of JavaScript                           | 3/20/2018 | T  | 
 | Jumping for JavaScript                       | 3/22/2018 | Th | 
 | JavaScript Juggernauts                       | 3/24/2018 | S  | 
