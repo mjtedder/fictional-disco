@@ -58,7 +58,7 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 
 
 -----------------------------------------
-## Class Lesson Videos  https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderSets=3&folderID=%22037a1f6f-bb4c-4158-af71-a89a018419e6%22
+
 ## Class Resource Videos
 
 #### Unit 1 - HTML, CSS, GIT
