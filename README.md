@@ -154,24 +154,17 @@ Please see bootcampspot-v2.com
 
 -----------------------------------------
 ## Career Curriculum By Week
+| Assigned Week                                        | Due Week |    | 
+|------------------------------------------------------|----------|----| 
+| Milestone 1: Employer Competitive                    | 2        | 4  | 
+| Milestone 2: Create Professional Materials I         | 5        | 7  | 
+| Milestone 3: Build your Visibility                   | 9        | 11 | 
+| Milestone 4: Create Professional Materials II        | 11       | 13 | 
+| Milestone 5: Polish Your Portfolio and Github        | 17       | 19 | 
+| Milestone 6.1: Prepare for a Successful Interview    | 18       | 19 | 
+| Milestone 6.2: Behavioral Interview Practice Session | 19       | 19 | 
+| Milestone 7: Finalize Job Search Materials           | 19       | 21 | 
 
-| Week  | Career Content | Career Lesson | Delivery Method | Homework |
-| :---: | :--------------| :------------:| :-------------- |:---------| 
-| 1   | Setting Expectations for Career Services  | 1  | In class                           | Sign the Student Expectations Document via DocuSign                                                                          |
-| 2   | Getting Started with Your Job Search      | 2  | Video                              | Research job opportunities                                                                                                   |
-| 4   | Building Your Bio & Perfecting Your Pitch | 3  | Video                              | Write a Bio                                                                                                                  |
-| 6-8 | Behavioral Interviewing                   | 4  | Video & Zoom Session to Practice   |                                                                                                                              |
-| 10  | Redacting Your Resume                     | 5  | Video                              | Create a Technical Resume                                                                                                    |
-| 15  | Creating & Editing Your Online Presence   | 6  | Video                              | Create a Technical LinkedIn profile, Clean GitHub account, and Personal Portfolio                                            |
-| 20  | How to Network (Tech Executive Panel)     | 7  | Saturday Event                     |                                                                                                                              |
-| 21  | Targeting the Job You Want                | 8  | Video                              | Update all homework assignments with feedback and suggestions and submit final Bio, Resume, LinkedIn, GitHub, and Portfolio  |
-| 21  | Career Coaching Lesson 1                  |    | Google Hangout                     |                                                                                                                              |
-| 22  | Networking Practice                       | 9  | Individual Student Practice        | Attend a networking event and write about your experience                                                                    |
-| 25  | Career Coaching Lesson 2                  |    | Phone Call / Google Hangout        |                                                                                                                              |
-|     | Final Project Presentation Day            | 10 | In class, final day of the program |                                                                                                                              | 
-| TBD | Graduation Event                          | 11 | In class                           |                                                                                                                              | 
-
------------------------------------------
 
 
 
