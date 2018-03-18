@@ -13,6 +13,8 @@
 [HTML/CSS Easy](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/blob/master/01-html-git-css/02-Homework/Instructions/easier-homework-assignment.md)    
 [HTML/CSS Challenge](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/blob/master/01-html-git-css/02-Homework/Instructions/recommended-homework-assignment.md)
 
+[HTML/CSS Challenge Solution Video](https://www.youtube.com/watch?v=qMbCiVYQLCU&feature=youtu.be)
+
 **Week 2**     
 [Responsiveness](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/blob/master/02-css-bootstrap/02-Homework/Instructions/homework-instructions.md)    
 
