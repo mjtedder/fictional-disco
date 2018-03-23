@@ -73,7 +73,8 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 #### Unit 2 - Media Queries and Bootstrap
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkLBEm5V0IzuhjdWBeKvrOC)
 
-
+#### Unit 3 - Intro to JavaScript
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmEChEWfh7sxPvQwYAx3Kt0)
 
 -----------------------------------------
 ## Technical Curriculum by Week
