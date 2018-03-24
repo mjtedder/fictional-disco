@@ -18,6 +18,8 @@
 **Week 2**     
 [Responsiveness](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/blob/master/02-css-bootstrap/02-Homework/Instructions/homework-instructions.md)    
 
+**Week 3**   
+[Hangman OR Psychic Game](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/03-javascript/02-Homework/Instructions)
 
 ## Minimum Requirements
 
