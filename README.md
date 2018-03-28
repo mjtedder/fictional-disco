@@ -79,6 +79,9 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 #### Unit 3 - Intro to JavaScript
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmEChEWfh7sxPvQwYAx3Kt0)
 
+#### Unit 4 - Intro to JQuery   
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCn05TQ1Ui8_lTnhizYcEFX7)
+
 -----------------------------------------
 ## Technical Curriculum by Week
 
