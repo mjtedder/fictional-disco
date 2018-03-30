@@ -22,7 +22,7 @@
 [Hangman OR Psychic Game](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/03-javascript/02-Homework/Instructions)
 
 **Week 4**    
-[Crystal Collector OR Star Wars RPG]
+[Crystal Collector OR Star Wars RPG](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/04-jquery/02-Homework/Instructions)
 
 ## Minimum Requirements
 
