@@ -19,7 +19,8 @@
 [Responsiveness Solution Video](https://www.youtube.com/watch?v=jF0kIhpX6tk&feature=youtu.be)    
 
 **Week 3**   
-[Hangman OR Psychic Game](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/03-javascript/02-Homework/Instructions)
+[Hangman OR Psychic Game](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/03-javascript/02-Homework/Instructions)   
+[Hangman Solution Video](https://www.youtube.com/watch?v=cgdmOR15cn4&feature=youtu.be)
 
 **Week 4**    
 [Crystal Collector OR Star Wars RPG](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/04-jquery/02-Homework/Instructions)
