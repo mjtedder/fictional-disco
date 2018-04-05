@@ -26,7 +26,9 @@
 ## Make Stuff Prettier or Easier to Read
 * [Output Colorizer - Syntax highlighting for log files](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
 * [Trailing Spaces - Highlight trailing spaces and delete them in a flash!](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)
+
 # Settings - VSCode
+
 ## Auto Saving
 <!-- // Controls auto save of dirty files. Accepted values:  'off', 'afterDelay', 'onFocusChange' (editor loses focus), 'onWindowChange' (window loses focus). If set to 'afterDelay', you can configure the delay in 'files.autoSaveDelay'. -->
 ```json
