@@ -23,7 +23,8 @@
 [Hangman Solution Video](https://www.youtube.com/watch?v=cgdmOR15cn4&feature=youtu.be)
 
 **Week 4**    
-[Crystal Collector OR Star Wars RPG](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/04-jquery/02-Homework/Instructions)    
+[Crystal Collector OR Star Wars RPG](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/04-jquery/02-Homework/Instructions)   
+[Crystal Collector Solution Video](https://www.youtube.com/watch?v=ki36iUBbCDY&feature=youtu.be)   
 
 **Week 5**   
 [Trivia Game](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/05-timers/02-Homework/Instructions)  
