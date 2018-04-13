@@ -27,7 +27,10 @@
 [Crystal Collector Solution Video](https://www.youtube.com/watch?v=ki36iUBbCDY&feature=youtu.be)   
 
 **Week 5**   
-[Trivia Game](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/05-timers/02-Homework/Instructions)  
+[Trivia Game](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/05-timers/02-Homework/Instructions)   
+
+**Week 6**   
+[GifTastic](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/06-ajax/02-Homework/Instructions)
 
 ## Minimum Requirements
 
