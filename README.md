@@ -94,7 +94,10 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCn05TQ1Ui8_lTnhizYcEFX7)
 
 #### Unit 5 - JS Timers, Review and Trivia   
-[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCncwPdhG7Z7A2HOAKcnmIQr)
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCncwPdhG7Z7A2HOAKcnmIQr)  
+
+#### Unit 6 - Intro to APIs and AJAX   
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmRwLl7YKfFxmNySuAhNdmC)
 
 -----------------------------------------
 ## Technical Curriculum by Week
