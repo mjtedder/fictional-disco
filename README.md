@@ -28,6 +28,8 @@
 
 **Week 5**   
 [Trivia Game](http://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/05-timers/02-Homework/Instructions)   
+[Trivia Game (Easy) Solution Video](https://www.youtube.com/watch?v=3eWhkc_u5rE&index=6&list=PLgJ8UgkiorClJwRrLq8f9QuzgTflJoeH2)   
+[Trivia Game (Advanced) Solution Video](https://youtu.be/KndV7UxLpnk)   
 
 **Week 6**   
 [GifTastic](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/06-ajax/02-Homework/Instructions)
