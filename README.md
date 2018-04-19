@@ -32,7 +32,10 @@
 [Trivia Game (Advanced) Solution Video](https://youtu.be/KndV7UxLpnk)   
 
 **Week 6**   
-[GifTastic](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/06-ajax/02-Homework/Instructions)
+[GifTastic](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/06-ajax/02-Homework/Instructions)   
+
+**Week 7**   
+[RockPaperScissors OR Train Activity](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/07-firebase/02-Homework/Instructions)
 
 ## Minimum Requirements
 
