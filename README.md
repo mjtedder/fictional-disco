@@ -104,6 +104,9 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 #### Unit 6 - Intro to APIs and AJAX   
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmRwLl7YKfFxmNySuAhNdmC)
 
+#### Unit 7 - Intro to Local Storage and Firebase
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkg74BLGZkgtJsRDQX51YbU)
+
 -----------------------------------------
 ## Technical Curriculum by Week
 
