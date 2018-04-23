@@ -33,6 +33,7 @@
 
 **Week 6**   
 [GifTastic](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/06-ajax/02-Homework/Instructions)   
+[GifTastic Solution Video](https://www.youtube.com/watch?v=V67yKAonLa4&list=PLgJ8UgkiorClJwRrLq8f9QuzgTflJoeH2&index=8)
 
 **Week 7**   
 [RockPaperScissors OR Train Activity](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/07-firebase/02-Homework/Instructions)
