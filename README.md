@@ -36,7 +36,8 @@
 [GifTastic Solution Video](https://www.youtube.com/watch?v=V67yKAonLa4&list=PLgJ8UgkiorClJwRrLq8f9QuzgTflJoeH2&index=8)
 
 **Week 7**   
-[RockPaperScissors OR Train Activity](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/07-firebase/02-Homework/Instructions)
+[RockPaperScissors OR Train Activity](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/07-firebase/02-Homework/Instructions)   
+[Train Activity Solution Video](https://www.youtube.com/watch?v=Dz5iKzwHi0k&index=9)
 
 ## Minimum Requirements
 
