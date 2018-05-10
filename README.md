@@ -37,7 +37,10 @@
 
 **Week 7**   
 [RockPaperScissors OR Train Activity](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/07-firebase/02-Homework/Instructions)   
-[Train Activity Solution Video](https://www.youtube.com/watch?v=Dz5iKzwHi0k&index=9)
+[Train Activity Solution Video](https://www.youtube.com/watch?v=Dz5iKzwHi0k&index=9)   
+
+**Week 10**   
+[Liri Bot](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/10-nodejs/02-Homework/Instructions)   
 
 ## Minimum Requirements
 
