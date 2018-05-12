@@ -113,7 +113,13 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmRwLl7YKfFxmNySuAhNdmC)
 
 #### Unit 7 - Intro to Local Storage and Firebase
-[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkg74BLGZkgtJsRDQX51YbU)
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkg74BLGZkgtJsRDQX51YbU)   
+
+#### Unit 9 - API Project Week 2 + Interview/Debug   
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorClkfaUS1W52Sr7-TqlOEDYU)   
+
+#### Unit 10 - Intro to Node.JS   
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCnevQjLViL_kxpU30eIJFu7)
 
 -----------------------------------------
 ## Technical Curriculum by Week
