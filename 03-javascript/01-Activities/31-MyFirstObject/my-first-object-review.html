@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My First Object</title>
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    var plane = {
+      make: "Honda",
+      mode: "Jet",
+      color: "Pearl White",
+      mileage: "80,000",
+      isWorking: true,
+
+      flyToWork: function() {
+
+        alert("Old Mileage: " + this.mileage);
+
+        this.mileage = this.mileage + 12;
+
+        alert("New Mileage: " + this.mileage);
+      },
+
+      flyAroundWorld: function() {
+
+        alert("Old Mileage: " + this.mileage);
+
+        this.mileage = this.mileage + 24000;
+
+        alert("New Mileage: " + this.mileage);
+        alert("Plane needs a tuneup!");
+
+        this.isWorking = false;
+      },
+
+      getTuneUp: function() {
+        alert("Plane is ready to go!");
+        this.isWorking = true;
+      },
+
+      honk: function() {
+        alert("Honk! Honk!");
+      }
+    };
+
+    console.log(plane["make"]);
+
+    console.log(plane["mode"]);
+
+    console.log(plane["mileage"]);
+
+    plane.flyToWork();
+
+    plane.flyAroundWorld();
+
+    plane.getTuneUp();
+  </script>
+</body>
+
+</html>

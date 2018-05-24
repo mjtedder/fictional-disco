@@ -88,7 +88,7 @@
         letterBtn.text(letters[i]);
 
         // 6. Finally, append each "letterBtn" to the "#buttons" div (provided).
-        btns.append(letterBtn);
+        $(btns.append(letterBtn));
 
       }
 
@@ -112,6 +112,7 @@
         // attr acts as both a setter and a getter for attributes depending on whether we supply one argument or two
         // NOTE: There IS a $(data) jQuery method, but it doesn't do what you'd expect. So just use attr.
         fridgeMagnet.text($(this).attr("data-letter"));
+        console.log(this)
 
         // 11. Lastly append the fridgeMagnet variable to the "#display" div (provided);
         // Again you can see we use that find, and once its found we append the item

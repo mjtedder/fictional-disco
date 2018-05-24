@@ -21,7 +21,7 @@
 
       <!-- Here we have our button for generating random numbers (#random-button) -->
       <button id="random-button" class="btn btn-primary btn-lg"><h1><span class="glyphicon glyphicon-question-sign"></span></h1></button>
-      
+
     </div>
 
   </div>
@@ -37,11 +37,18 @@
       // ...
 
 
-      // ...
+      $(".jumbotron").on("click", "#random-button", function() {
 
-    });
+        var random = Math.floor(Math.random()*10000000) + 1;
+
+        $("#random-number").text(random);
+
+        });
+
+      });
+
 
   </script>
-  
+
 </body>
 </html>

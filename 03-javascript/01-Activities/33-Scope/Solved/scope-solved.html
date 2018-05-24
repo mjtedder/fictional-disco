@@ -6,7 +6,7 @@
   </head>
   <body>
 
-    <h1>Open the console to see the magic!</h1>
+    <h1>Open the console to see the magicks!</h1>
 
     <script>
     // Replace each ??? with what you think its associated
@@ -22,17 +22,22 @@
     // "Oh, my! Peleke is 92."
     firstFunction("Oh my! ");
 
-    var secondFunction = function(name) {
+    var secondFunction = function(arg) {
+    //  console.log(arg)
+      let name = arg
       console.log(name + " is " + age + ".");
     };
 
+    let name2 = "TOMMY"
+
     // "Julius is 92."
-    secondFunction("Julius");
+    secondFunction(name2);
 
     // Write a function that returns: name + " is " + age + ".",
     // It should use the value of name defined above, but
     // shadow the age value.
     function thirdFunction(age) {
+
       return name + " is " + age + ".";
     }
 
@@ -43,7 +48,7 @@
     // CHALLENGE: Write a function that takes a string argument, and prints:
     // name + " likes " + str + "."
     function report(str) {
-      console.log(name + " likes " + str + ".");
+      console.log(str + " likes " + name + ".");
     }
 
     // Next, research forEach, and use the report function
@@ -52,7 +57,7 @@
     languages.forEach(report);
 
     // Or:
-    languages.forEach(function report(str) {
+    languages.forEach(function (str) {
       // forEach essentially writes a for loop *for* us!
       console.log(str);
     });

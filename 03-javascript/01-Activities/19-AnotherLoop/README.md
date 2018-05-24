@@ -6,6 +6,12 @@
 
 * Starting from scratch, create a `for` loop that console logs the following lines:
 
+for (i = 0; i < 5; i++) {
+    text += "I am " + i + "<br>";
+}
+
+
+
 ```
 I am 0
 I am 1

@@ -58,7 +58,15 @@
     }).then(function(response) {
       console.log(response);
     });
-// ---------------------------------------------------------
+
+    $.ajax({
+      url: "https://www.omdbapi.com/?t=scanner+darkly&y=&plot=long&apikey=trilogy",
+      method: "GET"
+    }).then(function(response) {
+      console.log(response);
+    });
+
+    // ---------------------------------------------------------
 
     console.log("Because our AJAX requests are asynchronous, this line of code will most likely log first");
   </script>

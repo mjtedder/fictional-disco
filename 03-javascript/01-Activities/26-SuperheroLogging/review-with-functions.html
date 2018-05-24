@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta-charset="utf-8>" <title>Logging No Functions</title>
+</head>
+
+<body>
+  <h1>Open the console to see the magicks!</h1>
+
+  <script type="text/javascript">
+    // Various Arrays
+
+    var brands = ["Sony", "Panasonic", "Nintendo", "Toshiba", "Sharp"];
+    var heroes = ["Link", "Solid Snake", "Cloud", "Squall", "Noctis", "Samus"];
+    var thingsInFrontOfMe = ["iPhone 6S", "Sharpie", "Notebook PC", "Coffee Mug"];
+    var moviesILove = ["Star Wars", "The Lord of the Rings", "Harry Potter"];
+    var howIFeel = ["Sleep Deprived", "Not Enough Coffee", "Excited", "Horny"];
+
+    function consoleInside(arr) {
+
+      for (var i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+      }
+      console.log("---------");
+    }
+
+    consoleInside(brands);
+    consoleInside(heroes);
+    consoleInside(thingsInFrontOfMe);
+    consoleInside(moviesILove);
+    consoleInside(howIFeel);
+  </script>
+</body>
+
+</html>

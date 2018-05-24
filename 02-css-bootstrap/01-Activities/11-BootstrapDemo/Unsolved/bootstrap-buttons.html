@@ -1,6 +1,6 @@
 <!-- Bootstrap Exercise -->
 
-<!-- Students: 
+<!-- Students:
  Working with someone closest to you:
 
     1. Navigate to the Twitter Bootstrap website.
@@ -11,7 +11,7 @@
 
     4. Slack a screenshot of your page to your section’s channel when you are done.
 
-    5. Hint: First include a link to Bootstrap’s CSS. Then visit the Bootstrap page on CSS or Components. 
+    5. Hint: First include a link to Bootstrap’s CSS. Then visit the Bootstrap page on CSS or Components.
 
   IMPORTANT: If you finish early, let the TAs know so you can be sent to help others around you.
 -->
@@ -22,7 +22,12 @@
 <head>
 
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!--Optional Theme-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <title>Bootstrap DemoButtons</title>
+  <!--Bootstrap JavaScript-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </head>
 
@@ -32,6 +37,43 @@
   <h1>Here is a non fancy button</h1>
   <button>Boring Button</button>
   <button>Boring Button</button>
+  <!-- Standard Button -->
+  <button type="button" class="btn btn-primary">Default</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+
+<h1>Here is a jumbotron.</h1>
+  <div class="jumbotron">
+  <h1>Hello, world!</h1>
+  <p>...</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+
+<h1>Here is a large well.</h1>
+<div class="well well-lg">I'm in a well.</div>
+
+<h1>Here is a Progress Bar</h1>
+90% Complete
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+    <span class="sr-only">90% Complete</span>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
 
 </body>
 

@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>jQuery Calculator</title>
+  <meta charset="UTF-8">
+  <title>jQuery Calculator</title>
 
-    <!-- Added link to the jQuery Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <!-- Added a link to Bootstrap-->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+  <!-- Added a link to Bootstrap-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
+
 <body>
 
-<!-- Jumbotron for Title -->
-<div class="jumbotron">
+  <!-- Jumbotron for Title -->
+  <div class="jumbotron">
     <h1 class="text-center">jQuery Calculator</h1>
     <h3 class="text-center">Perform basic mathematic operations using the power of jQuery!</h3>
-</div>
+  </div>
 
-<div class="container">
+  <div class="container">
 
     <div class="row">
 
@@ -71,16 +72,83 @@
     </div>
   </div>
 
-<script type="text/javascript">
-
-$(document).ready(function() {
-
-// Your code here...
+  <script type="text/javascript">
 
 
-});
 
-</script>
+  $(document).ready(function() {
+
+    // Your code here...
+    //Clicking the clear button
+    $('#button-clear').on("click", function() {
+      $('#first-number').empty();
+      $('#operator').empty();
+      $('#operator').removeAttr("value");
+      $('#second-number').empty();
+      $('#result').empty();
+    });
+    //Clicking number buttons
+    $('.number').on("click", function() {
+      if ($('#first-number').text() === "") {
+        console.log("number1: " + this.value);
+        $('#first-number').text(this.value);
+      } else if ($('#second-number').val() === "") {
+        console.log("number2: " + this.value);
+        $('#second-number').text(this.value);
+      }
+    });
+// Clicking the operator buttons
+    $('.operator').on("click", function() {
+      if ($('#operator').text() === "") {
+        console.log("operator: " + this.innerText);
+        $('#operator').text(this.innerText);
+        $('#operator').attr("value", this.value);
+      }
+    });
+// Clicking the equal button
+    $('#button-equal').on("click", function() {
+      let num1 = +$('#first-number').text();
+      let num2 = +$('#second-number').text();
+      let oper = $('#operator').attr("value");
+      let result = 0;
+      if (num1 == '' || num2 == '' || oper == '') {
+        return;
+      }
+      console.log("oper: " + oper);
+      switch (oper) {
+        case "plus":
+        console.log("add");
+          result = num1 + num2;
+          break;
+        case "minus":
+        console.log("subtract");
+        result = num1 - num2;
+          break;
+        case "times":
+        console.log("multiply");
+          result = num1 * num2;
+          break;
+        case "divide":
+        console.log("divide");
+          result = num1 / num2;
+          break;
+        case "power":
+        console.log("exponent");
+          result = num1 ** num2;
+          break;
+        default:
+        console.log("default");
+
+      }
+      console.log(result);
+      $('#result').text(result);
+    });
+
+  });
+
+
+  </script>
 
 </body>
+
 </html>

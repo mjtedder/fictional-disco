@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Walter H White Objects</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    var heisenberg = {
+      "real name": "Walter H White",
+      "age": 51,
+      "race": "white",
+      "haveRetirementPlan": true,
+      "aliases": [
+        "Heisenberg",
+        "Walt",
+        "Walter",
+        "Mr. Blue"
+      ]
+    };
+
+    // Object properties can be accessed with "bracket notation"
+    alert("My name is " + heisenberg["real name"]);
+
+    // Or with "dot notation" if the property has no spaces
+
+    if (heisenberg.haveRetirementPlan) {
+
+    }
+      // Or with a variable that matches the name of the property
+
+      var ageProperty = "age";
+      var years = heisenberg[ageProperty];
+      alert("My 401k has been gathering interest for " + years + " years!");
+
+
+    // You can access arrays and their properties from an object
+
+      alert("I have more than " + heisenberg.aliases.length + " aliases");
+
+    // Non-existent properties return undefined
+
+      alert("My designation is " + heisenberg["designation"]);
+
+  </script>
+</body>
+
+</html>

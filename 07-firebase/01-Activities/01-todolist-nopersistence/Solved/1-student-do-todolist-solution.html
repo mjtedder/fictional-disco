@@ -39,13 +39,18 @@
 
     // Create an initial toDoCount variable
     var toDoCount = 0;
-
+    var userInput = localStorage.getItem('userInput');
+    userInput = userInput ? [userInput] : [];
+    console.log(userInput);
     //  On Click event associated with the add-to-do function
     $("#add-to-do").on("click", function(event) {
       event.preventDefault();
 
+
       // Get the to-do "value" from the textbox and store it a variable
       var toDoTask = $("#to-do").val().trim();
+      localStorage.clear();
+      localStorage.setItem();
 
       // Create a new variable that will hold a "<p>" tag.
       // Then give it an ID in the following form:

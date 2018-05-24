@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Loops</title>
+</head>
+
+<body>
+
+  <h1>Open the console to see the magic!</h1>
+
+  <script type="text/javascript">
+
+  // for loop without array
+      for (let i = 0; i
+      < 4; i++) { console.log("I am " + i); }
+
+
+  // setting array
+    var games = ["nintendo", "sony", "microsoft", "sega"];
+
+    var arrayLength = games.length;
+
+  // for loop with array
+    for (var j = 0; j < arrayLength; j++) {
+      console.log("I love " + games[j]);
+
+// if statement to alert when string begins with "s"
+      if (games[j].charAt(0) === "s") {
+        alert("Starts with S!!!");
+      }
+
+    }
+  </script>
+
+</body>
+
+</html>

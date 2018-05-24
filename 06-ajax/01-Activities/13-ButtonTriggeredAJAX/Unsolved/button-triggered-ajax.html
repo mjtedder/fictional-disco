@@ -24,7 +24,15 @@
             * with a quote said by them -->
 
     <!-- **************************************** -->
-
+    <button data-person="marlon brando">
+      I'm going to make him an offer he can't refuse.
+    </button>
+    <button data-person="harrison ford">
+      May the Force be with you.
+    </button>
+    <button data-person="jack nicholson">
+      Here's Johnny!
+    </button>
     <!-- YOUR BUTTONS GO HERE!!!!!! Obviously delete this text after you put them between the dashed lines here.  -->
 
     <!-- **************************************** -->
@@ -54,7 +62,7 @@
           var results = response.data;
 
           for (var i = 0; i < results.length; i++) {
-            var gifDiv = $("<div class='item'>");
+            var gifDiv = $("<div class='item'>"); 
 
             var rating = results[i].rating;
 

@@ -49,6 +49,19 @@
             </div>
           </div>
         </div>
+        <!-- Controls (Superpower Stretch/Normal)-->
+        <div id="stretchControls" class="card">
+          <h4 class="card-header">Superpowers - Stretch!</h4>
+          <div class="card-body">
+            <div class="text-center">
+              <button class="btn btn-dark btn-lg unstretch-button">
+                <span class="glyphicon glyphicon-ok-sign"></span> Normal</button>
+              <button class="btn btn-primary btn-lg stretch-button">
+                <span class="glyphicon glyphicon-plus-sign"></span> Stretch</button>
+              </div>
+          </div>
+        </div>
+
 
         <!-- Controls (Superpower Visibility) -->
         <div id="visibilityControls" class="card">
@@ -83,6 +96,8 @@
           </div>
         </div>
       </div>
+      <!-- Stretch () -->
+
 
       <!-- Right Panel (Captain Planet Hero)-->
       <div class="col-lg-6">
@@ -118,6 +133,13 @@
       captainPlanet.animate({ height: "500px" });
     }).on("click", ".shrink-button", function() {
       captainPlanet.animate({ height: "100px" });
+    });
+
+    // Stretch Buttons
+    $("#stretchControls").on("click", ".unstretch-button", function() {
+      captainPlanet.animate({ width: "300px" });
+    }).on("click", ".stretch-button", function() {
+      captainPlanet.animate({ width: "1000px" });
     });
 
     // Visibility Buttons

@@ -10,31 +10,31 @@
 
     <script type="text/javascript">
 
-      // Fill in the question marks with what the output will be.
-      var animals = ["parrot", "cat", "dog"];
+      // Defines array
+      var animals = ["parrot", "cat", "dog", "donkey"];
 
-      // ???
+      // Prints 3 because there are 3 items in the animals array
       console.log(animals.length);
 
-      // ???
+      // Prints cat because it is 1 in the index of animals array
       console.log(animals[1]);
 
-      // ???
+      // Prints dog because it is 2 in the index of animals array
       console.log(animals[2]);
 
-      // ???
+      // Prints parrot because it is 0 in the index of animals array
       console.log(animals[0]);
 
-      // ???
+      // Prints undefined
       console.log(animals[animals.length]);
 
-      // ???
+      // Prints dog
       console.log(animals[animals.length - 1]);
 
-      // ???
-      console.log(animals.indexOf("bear"));
+      // ****Prints undefined because bear is not part of the animals array
+      console.log(animals.indexOf("shark"));
 
-      // ???
+      // Prints 0 because parrot is 0 in the index of animals array
       console.log(animals.indexOf("parrot"));
 
     </script>

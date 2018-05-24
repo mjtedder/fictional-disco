@@ -38,7 +38,9 @@
       // Generic function for capturing the movie name from the data-attribute
       function alertMovieName() {
 
-        // YOUR CODE GOES HERE!!!
+        var movieName=$(this).attr("data-name");
+
+        alert(movieName);
 
       }
 
@@ -89,6 +91,7 @@
 
       // Calling the renderButtons function to display the intial buttons
       renderButtons();
+      alertMovieName();
     </script>
   </div>
 </body>

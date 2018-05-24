@@ -3,15 +3,16 @@
 // Initialize Firebase
 // Make sure to match the configuration to the script version number in the HTML
 // (Ex. 3.0 != 3.7.0)
-var config = {
-  apiKey: "AIzaSyDxQqkGa3AKrcGmGVFalJe40g4hdzADf6w",
-  authDomain: "coder-bay-views.firebaseapp.com",
-  databaseURL: "https://coder-bay-views.firebaseio.com",
-  storageBucket: "coder-bay-views.appspot.com",
-  messagingSenderId: "17945436261"
-};
-
-firebase.initializeApp(config);
+// Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBHB9e-uSECi9gJWWcjw3_5_xDhLNUxfr0",
+    authDomain: "codersbay-bdfae.firebaseapp.com",
+    databaseURL: "https://codersbay-bdfae.firebaseio.com",
+    projectId: "codersbay-bdfae",
+    storageBucket: "",
+    messagingSenderId: "866049715602"
+  };
+  firebase.initializeApp(config);
 
 
 // Create a variable to reference the database.
@@ -86,6 +87,9 @@ $("#submit-bid").on("click", function(event) {
   var bidderPrice = parseInt($("#bidder-price").val().trim());
 
   // Log to console the Bidder and Price (Even if not the highest)
+  console.log(bidderName);
+  console.log(bidderPrice);
+
 
 
   if (bidderPrice > highPrice) {
@@ -98,6 +102,8 @@ $("#submit-bid").on("click", function(event) {
       highBidder: bidderName,
       highPrice: bidderPrice
     });
+
+    return false;
 
     // Log the new High Price
     console.log("New High Price!");

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
   <meta charset="utf-8">
@@ -19,6 +19,9 @@
   <div class="container">
     <h1>Movie Search</h1>
 
+    <!-- Movies will get dumped here -->
+    <div id="movies-view"></div>
+
     <!-- Rendered buttons will get dumped here  -->
     <div id="buttons-view"></div>
 
@@ -29,9 +32,6 @@
       <!-- Button triggers new movie to be added -->
       <input id="add-movie" type="submit" value="Add a Movie Bro">
     </form>
-
-    <!-- Movies will get dumped Dere -->
-    <div id="movies-view"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
@@ -51,18 +51,33 @@
         }).then(function(response) {
 
           // Creates a div to hold the movie
+          var movieDiv = $("<div class='movie'>");
           // Retrieves the Rating Data
+          var rating = response.Rated;
           // Creates an element to have the rating displayed
+          var pOne = $("<p>").text("Rating: " + rating);
           // Displays the rating
+          movieDiv.append(pOne);
           // Retrieves the release year
+          var released = response.Released;
           // Creates an element to hold the release year
+          var pTwo = $("<p>").text("Released: " + released);
           // Displays the release year
+          movieDiv.append(pTwo);
           // Retrieves the plot
+          var plot = response.Plot;
           // Creates an element to hold the plot
+          var pThree = $("<p>").text("Plot: " + plot);
           // Appends the plot
+          movieDiv.append(pThree);
+          //Retrieving the URL for the image
+          var imgURL = response.Poster;
           // Creates an element to hold the image
+          var image = $("<img>").attr("src", imgURL);
           // Appends the image
+          movieDiv.append(image);
           // Puts the entire Movie above the previous movies.
+          $("#movies-view").prepend(movieDiv);
         });
 
       }
@@ -108,6 +123,8 @@
 
       // Calling the renderButtons function to display the intial buttons
       renderButtons();
+
+
     </script>
   </div>
 </body>

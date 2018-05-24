@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Breaking Bad Arrays</title>
+</head>
+
+<body>
+  <h1>Open the console to see the blue magicks!</h1>
+
+  <script type="text/javascript">
+
+  //Breaking Bad "properties"
+
+    var breakingBadInfoParts = ["Real Name", "Setting", "Known For", "Alias", "Motivation"];
+
+  //Values for Breaking Bad's "properties"
+
+    var breakingBadInfoValues = [
+      "Walter H White.",
+      "Albuquerque, New Mexico.",
+      "High School Chemistry Teacher turns to cooking crystal methamphetamines to pay for his cancer treatment.",
+      "Alias is Heisenberg, the drug kingpin that manufactures the purest meth west of the Mississippi River.",
+      "Sells methamphetamines with side-kick Jesse Pinkman, a former student under the guise of leaving money for his family after he dies.",
+    ];
+
+    var input = "Real Name";
+
+    var index = breakingBadInfoParts.indexOf(input);
+    var valuesIndex = breakingBadInfoValues[index];
+
+    alert("My name is " + valuesIndex[0]);
+    console.log(index);
+    console.log(valuesIndex);
+
+  </script>
+</body>
+</html>

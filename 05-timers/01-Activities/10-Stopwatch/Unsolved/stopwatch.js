@@ -28,6 +28,8 @@ var stopwatch = {
     stopwatch.lap = 1;
 
     //  TODO: Change the "display" div to "00:00."
+    $("#reset").click(stopwatch.reset);
+    $("#display").html("00:00");
 
   },
 
@@ -35,6 +37,8 @@ var stopwatch = {
 
     //  TODO: Use setInterval to start the count here and set the clock to running.
     if (!clockRunning) {
+      intervalId = setInterval(increment, 10000)
+
 
     }
 

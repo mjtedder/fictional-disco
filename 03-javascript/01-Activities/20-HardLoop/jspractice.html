@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript Practice</title>
+</head>
+
+<body>
+
+  <h1>(Open The Console...)</h1>
+
+  <script type="text/javascript">
+    // i = 0 is initialization; i < 20 is condition; i++ is final expression (don't end with ;)
+    for (var i = 0; i < 20; i++) {
+      console.log(i);
+    }
+
+    // manual loop
+
+    var i = 0;
+
+    console.log(i++);
+    console.log(i++);
+    console.log(i++);
+
+    // declare variable outside the loop
+
+    var i = 0
+
+    // ommitting initialization and condition
+
+    for (;; i++) {
+      if (i > 9) {
+        break;
+      }
+      console.log(i);
+    }
+
+    // FOR..IN loop
+
+    const mario = {
+      console: "nintendo",
+      occupation: "plumber",
+      weakness: "princesses"
+    }
+
+    // access property names..
+    for (attribute in mario) {
+        console.log(attribute);
+    }
+    // access property values..
+    for (attribute in mario) {
+      console.log(mario[attribute]);
+    }
+    // access property names and values together..
+    for (attribute in mario) {
+      console.log(`${attribute}`.toUpperCase() + `: ${mario[attribute]}`);
+    }
+
+    //FOR..OF loop
+
+    //index systems array of video game system names
+    var systems = ["sony", "microsoft", "nintendo", "sega"];
+      for (var system of systems) {
+        console.log(system);
+      }
+
+    //loop through both index and element
+     for (var [index, systems] of systems.entries()) {
+       console.log(index, systems);
+     }
+
+    //can also iterate a string the same way using FOR..OF loop
+
+    var nintendoString = "nintendo";
+
+    for (var nintendo of nintendoString) {
+      console.log(nintendo);
+    }
+
+
+  </script>
+</body>
+
+</html>
