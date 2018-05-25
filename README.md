@@ -44,6 +44,13 @@
 
 **Week 10**   
 [Liri Bot](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/10-nodejs/02-Homework/Instructions)   
+[Liri Bot Solution Video](https://www.youtube.com/watch?v=1-k08YfQbec&list=PLgJ8UgkiorClJwRrLq8f9QuzgTflJoeH2&index=9)   
+
+**Week 11**   
+[(Optional) Constructor Word Guess](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/11-js-constructors/02-Homework)   
+
+**Week 12**   
+[Bamazon](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/12-mysql/02-Homework)
 
 ## Minimum Requirements
 
@@ -123,6 +130,9 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 
 #### Unit 11 - Constructors
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorClIZdJL_PasNdUR0yWjBCBP)
+
+#### Unit 12 - MySQL   
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCncqIRVifiwiP7VoMpcCq0V)
 
 -----------------------------------------
 ## Technical Curriculum by Week
