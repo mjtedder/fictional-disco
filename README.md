@@ -138,7 +138,10 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCncqIRVifiwiP7VoMpcCq0V)   
 
 #### Unit 13 - Express   
-[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmI_wKKVt5FlkTG63sQF6rr)
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmI_wKKVt5FlkTG63sQF6rr)   
+
+#### Unit 14 - Handlebars   
+[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=cMAIbAJcvZo&list=PLgJ8UgkiorCk9lJ4G-uQkCyGeKlquugNI)
 
 -----------------------------------------
 ## Technical Curriculum by Week
