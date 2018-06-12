@@ -50,7 +50,10 @@
 [(Optional) Constructor Word Guess](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/11-js-constructors/02-Homework)   
 
 **Week 12**   
-[Bamazon](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/12-mysql/02-Homework)
+[Bamazon](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/12-mysql/02-Homework)   
+[Bamazon Solution Video - Customer](https://www.youtube.com/watch?v=oouxVn14qyk)   
+[Bamazon Solution Video - Manager](https://www.youtube.com/watch?v=q9ANiugK21Y)   
+[Bamazon Solution Video - Executive](https://www.youtube.com/watch?v=3ym0-z6k_WM)
 
 ## Minimum Requirements
 
