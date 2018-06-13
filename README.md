@@ -53,7 +53,13 @@
 [Bamazon](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/12-mysql/02-Homework)   
 [Bamazon Solution Video - Customer](https://www.youtube.com/watch?v=oouxVn14qyk)   
 [Bamazon Solution Video - Manager](https://www.youtube.com/watch?v=q9ANiugK21Y)   
-[Bamazon Solution Video - Executive](https://www.youtube.com/watch?v=3ym0-z6k_WM)
+[Bamazon Solution Video - Executive](https://www.youtube.com/watch?v=3ym0-z6k_WM)   
+
+**Week 13**   
+[Friend Finder](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/13-express/02-Homework/)   
+
+**Week 14**   
+[Eat-Da-Burger](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/14-handlebars/02-Homework)
 
 ## Minimum Requirements
 
