@@ -147,7 +147,10 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmI_wKKVt5FlkTG63sQF6rr)   
 
 #### Unit 14 - Handlebars   
-[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=cMAIbAJcvZo&list=PLgJ8UgkiorCk9lJ4G-uQkCyGeKlquugNI)
+[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=cMAIbAJcvZo&list=PLgJ8UgkiorCk9lJ4G-uQkCyGeKlquugNI)   
+
+#### Unit 15 - Sequelize   
+[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=dt9mXaEEAkM&list=PLgJ8UgkiorClj-MYE-wm4J6vfVA3-VqWc)
 
 -----------------------------------------
 ## Technical Curriculum by Week
