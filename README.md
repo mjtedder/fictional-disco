@@ -60,7 +60,9 @@
 [Friend Finder Solution Video](https://www.youtube.com/watch?v=1mS5w2KOdcQ)  
 
 **Week 14**   
-[Eat-Da-Burger](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/14-handlebars/02-Homework)   
+[Eat-Da-Burger](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/14-handlebars/02-Homework/Instructions)   
+[Eat-Da-Burger Solution Video](https://www.youtube.com/watch?v=pieNMQU3oDw)   
+
 
 **Week 15**   
 [(Optional) Burger 2](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/15-sequelize/02-Homework/Instructions)   
