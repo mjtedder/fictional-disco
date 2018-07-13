@@ -71,6 +71,9 @@
 **Week 17**   
 [Portfolio Update](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/17-portfolio-update/01-Homework/Instructions)   
 
+**Week 18**   
+[News Scraper](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/18-mongo-mongoose/02-Homework/Instructions)   
+
 ## Minimum Requirements
 
 
@@ -160,7 +163,7 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 [Complete Playlist (Exercises)](https://www.youtube.com/watch?v=cMAIbAJcvZo&list=PLgJ8UgkiorCk9lJ4G-uQkCyGeKlquugNI)   
 
 #### Unit 15 - Sequelize   
-[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=dt9mXaEEAkM&list=PLgJ8UgkiorClj-MYE-wm4J6vfVA3-VqWc)
+[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=dt9mXaEEAkM&list=PLgJ8UgkiorClj-MYE-wm4J6vfVA3-VqWc)   
 
 -----------------------------------------
 ## Technical Curriculum by Week
