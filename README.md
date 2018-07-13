@@ -63,13 +63,15 @@
 [Eat-Da-Burger](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/14-handlebars/02-Homework/Instructions)   
 [Eat-Da-Burger Solution Video](https://www.youtube.com/watch?v=pieNMQU3oDw)   
 
-
 **Week 15**   
 [(Optional) Burger 2](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/15-sequelize/02-Homework/Instructions)   
 [(Optional) Burger 2 Solution Video](https://www.youtube.com/watch?v=F-zNZIQVc-8)   
 
 **Week 17**   
 [Portfolio Update](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/17-portfolio-update/01-Homework/Instructions)   
+
+**Week 18**   
+[News Scraper](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/18-mongo-mongoose/02-Homework/Instructions)
 
 ## Minimum Requirements
 
