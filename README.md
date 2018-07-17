@@ -165,6 +165,9 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 #### Unit 15 - Sequelize   
 [Complete Playlist (Exercises)](https://www.youtube.com/watch?v=dt9mXaEEAkM&list=PLgJ8UgkiorClj-MYE-wm4J6vfVA3-VqWc)   
 
+#### Unit 18 - MongoDB   
+[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=Ci1bui7w75k&list=PLgJ8UgkiorCk7zT1kKGwSogEcJbVBzzH8)
+
 -----------------------------------------
 ## Technical Curriculum by Week
 
