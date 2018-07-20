@@ -169,7 +169,10 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 [Complete Playlist (Exercises)](https://www.youtube.com/watch?v=dt9mXaEEAkM&list=PLgJ8UgkiorClj-MYE-wm4J6vfVA3-VqWc)   
 
 #### Unit 18 - MongoDB   
-[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=Ci1bui7w75k&list=PLgJ8UgkiorCk7zT1kKGwSogEcJbVBzzH8)
+[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=Ci1bui7w75k&list=PLgJ8UgkiorCk7zT1kKGwSogEcJbVBzzH8)   
+
+#### Unit 19 - React   
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmEfIp2_y73ohb8G6lqyYQY)   
 
 -----------------------------------------
 ## Technical Curriculum by Week
