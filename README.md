@@ -74,6 +74,9 @@
 **Week 18**   
 [News Scraper](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/18-mongo-mongoose/02-Homework/Instructions)   
 
+**Week 19**   
+[Clicky Game](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/19-react/02-Homework/Instructions)   
+
 ## Minimum Requirements
 
 
