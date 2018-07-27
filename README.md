@@ -77,6 +77,9 @@
 **Week 19**   
 [Clicky Game](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/19-react/02-Homework/Instructions)   
 
+**Week 20**   
+[NYT React Search](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/20-react/02-Homework/Instructions)   
+
 ## Minimum Requirements
 
 
