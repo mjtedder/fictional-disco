@@ -77,6 +77,9 @@
 **Week 19**   
 [Clicky Game](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/19-react/02-Homework/Instructions)   
 
+**Week 20**   
+[NYT React Search](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/20-react/02-Homework/Instructions)   
+
 ## Minimum Requirements
 
 
@@ -173,6 +176,9 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 
 #### Unit 19 - React   
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCmEfIp2_y73ohb8G6lqyYQY)   
+
+#### Unit 20 - React   
+[Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkozGKPh0NlHoSzi__FS6aj)   
 
 -----------------------------------------
 ## Technical Curriculum by Week
