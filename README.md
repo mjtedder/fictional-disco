@@ -181,6 +181,9 @@ Live Office Hours: 45 minutes before class and 30 minutes after class
 #### Unit 20 - React   
 [Complete Playlist (Exercises)](https://www.youtube.com/playlist?list=PLgJ8UgkiorCkozGKPh0NlHoSzi__FS6aj)   
 
+#### Unit 22 - Computer Science   
+[Complete Playlist (Exercises)](https://www.youtube.com/watch?v=3OH-Ta_mc8E&index=1&list=PLgJ8UgkiorCkov7rkGszLyQl-sMUn-cbu)
+
 -----------------------------------------
 ## Technical Curriculum by Week
 
