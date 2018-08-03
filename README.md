@@ -73,6 +73,7 @@
 
 **Week 18**   
 [News Scraper](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/18-mongo-mongoose/02-Homework/Instructions)   
+[News Scraper Solution Video](https://www.youtube.com/watch?v=17-n9ImiWVc)  
 
 **Week 19**   
 [Clicky Game](https://unchar.bootcampcontent.com/The-Coding-Bootcamp/UNCHAR201803FSF1-Class-Repository-FSF/tree/master/19-react/02-Homework/Instructions)   
