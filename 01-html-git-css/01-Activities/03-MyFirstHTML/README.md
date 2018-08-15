@@ -8,7 +8,6 @@
     * Embed an image
     * Create the following three links on your page:
       * One link that is `target="_blank"` so that it opens a new tab when clicked on.
-      * Make the second link bold.
       * Make the third link a placeholder so it goes nowhere.
 
   * HINT: You should be looking up at the screen pretty often :P
