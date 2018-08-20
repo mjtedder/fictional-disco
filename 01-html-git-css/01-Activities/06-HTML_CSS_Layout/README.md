@@ -1,6 +1,6 @@
 # Instructions
 
-* Put all of this code inside a folder named `week1-day2-html-css`, and put the folder in a place where you normally code. 
+* Put all of this code inside a folder named `week1-day2-html-css`, and put the folder in a place where you normally code.
 * Use the command line to make a folder called `css`.
 * Use the command line to make a file called `style.css` inside of thee `css` folder.
 * Reference the `style.css` in your `student-bio.html` file. You do this by placing `<link rel="stylesheet" type="text/css" href="css/style.css">` inside the `<head>` tag.
