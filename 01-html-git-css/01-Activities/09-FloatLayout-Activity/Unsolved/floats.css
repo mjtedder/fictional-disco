@@ -24,18 +24,31 @@ section {
 
 #left {
   background: #666;
+  color: #eee;
+  width: 33.3%;
+  float: left;
+  margin-bottom: 20px;
 }
 
 #middle {
   background: #888;
+  color: #eee;
+  width: 33.3%;
+  float: left;
+  margin-bottom: 20px;
 }
 
 #right {
   background: #666;
+  color: #eee;
+  width:33.3%;
+  float: left;
+  margin-bottom: 20px;
 }
 
 #full {
   background: #eee;
+  float: left;
 }
 
 #division {
@@ -48,4 +61,5 @@ aside {
 
 footer {
   background: #ccc;
+  float: left;
 }
