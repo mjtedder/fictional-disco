@@ -2,7 +2,7 @@
 
 * Work with the same or different partners on this activity, but make sure **each** member of the group is typing out their own code!
 
-* Create a file called `positioning.html` and a file called `positioning.css`. 
+* Create a file called `positioning.html` and a file called `positioning.css`.
 
 * Using HTML/CSS, create the layout shown on the screen.
 
