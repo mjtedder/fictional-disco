@@ -1,0 +1,43 @@
+/* CSS Psuedo Element */
+
+h1::first-letter {
+    color:#ff0000;
+    font-size: 50px;
+}
+
+
+
+/* CSS Pseudo Classes */
+
+a {
+    font-size: 34px;
+    -webkit-transition: font-size 2s; /* For Safari 3.1 to 6.0 */
+    transition: font-size 2s;
+}
+
+
+/* Default */
+a:link {
+    color: red;
+}
+
+/* Clicked */
+a:visited {
+    color: black;
+}
+
+/* Mouse Hover */
+a:hover {
+    color: green;
+    font-size: 68px;
+}
+
+/* While Clicking */
+a:active {
+    color: orange;;
+}
+
+a:last-child {
+    background-color: grey;
+}
+
