@@ -2,8 +2,10 @@
 
 <!-- Students:
   1. Where is the HTML document drawing its styles from?
-
+  From a CSS Framework called Bootstrap 4.  The CDN is linked in the head of the html document.
   2. How does our browser know which element to style in which way? (ex: button face or background banner)
+  It is using pre-defined classes from BootStrap.  Developers can find different components for banners and buttons
+  if they view the documentation from http://getbootstrap.com/docs/4.1/getting-started/introduction/
 -->
 <!DOCTYPE html>
 <html lang="en-us">
@@ -14,7 +16,7 @@
   <title>Coding Bootcamp!</title>
 
   <!-- We link our html to the Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
 
@@ -23,64 +25,45 @@
   <!-- Container Div -->
   <div class="container">
 
-    <!-- Section 1: Navbar-->
-    <nav class="navbar navbar-default">
+      <!-- Section 1: Navbar -->
+      <nav class="navbar navbar-expand-xl navbar-light bg-light">
 
-      <!-- Place Fluid Container in Navbar -->
-      <div class="container-fluid">
-
-        <!-- Designate a navbar heading -->
-        <div class="navbar-header">
+          <!-- Our brand -->
+          <a class="navbar-brand" href="#">The Coding Bootcamp</a>
 
           <!-- Collapsible button -->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-              <!-- navbar button elements-->
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span> <!-- first line -->
-              <span class="icon-bar"></span> <!-- second line -->
-              <span class="icon-bar"></span> <!-- third line -->
-
-            </button>
-          <!-- Our brand / logo -->
-          <a class="navbar-brand" href="#">The Coding Bootcamp</a>
+          <!-- Dropdown menu -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
         </div>
 
-        <!-- The links of our navbar -->
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-
-            <!-- a Dropdown menu -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-
-          <!-- More links -->
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-          </ul>
-        </div>
-        <!--/.nav-collapse -->
-      </div>
-      <!--/.container-fluid -->
-    </nav>
-
-    <!-- Jumbotron element -->
+        <!-- Jumbotron element -->
     <div class="jumbotron">
 
       <!-- centered text -->
