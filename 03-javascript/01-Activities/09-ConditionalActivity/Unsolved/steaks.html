@@ -9,11 +9,24 @@
     <script type='text/javascript'>
 
     // Create a prompt that asks users if they eat steak.
-
+    const confirmSteak = confirm('Do you eat steak?')
+    const confirmAge = prompt('What year were you born?')
     // Use a conditional statement:
 
         // If user responds with yes: document.write("Here's a steak sandwich!")
+        if (confirmSteak) {
+            document.write("Here's a Steak Sandwich!")
+        }
+        else {
+            document.write("Here's a Tofu Stir-Fry!")
+        }
 
+        if (confirmAge > 1997) {
+            alert('No Sake for you!')
+        }
+        else {
+            alert('Super Sake Time!')
+        }
         // If user responds with no: document.write("Here's a tofu stir-fry!")
 
     </script>
