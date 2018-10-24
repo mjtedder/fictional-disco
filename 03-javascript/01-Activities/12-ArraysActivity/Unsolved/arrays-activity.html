@@ -13,28 +13,28 @@
       // Defines array
       var animals = ["parrot", "cat", "dog", "donkey"];
 
-      // Prints 3 because there are 3 items in the animals array
+      // Prints 4 because there are 4 items in the array.
       console.log(animals.length);
 
-      // Prints cat because it is 1 in the index of animals array
+      // Prints "cat" because it is in the 1 position of the array.
       console.log(animals[1]);
 
-      // Prints dog because it is 2 in the index of animals array
+      // Prints "dog" because it is in the 2 position of the array (Remember, JS arrays start at 0).
       console.log(animals[2]);
 
-      // Prints parrot because it is 0 in the index of animals array
+      // Prints "parrot" because it is in the 0 position on the array.
       console.log(animals[0]);
 
-      // Prints undefined
+      // Prints undefined.
       console.log(animals[animals.length]);
 
-      // Prints dog
+      // Prints "donkey" because it is in the 3 position of and animals.length(4) - 1 = 3.
       console.log(animals[animals.length - 1]);
 
-      // ****Prints undefined because bear is not part of the animals array
+      // Prints the index position of "shark".  Since it isn't in the array, prints -1.
       console.log(animals.indexOf("shark"));
 
-      // Prints 0 because parrot is 0 in the index of animals array
+      // Prints the index position of "parrot" which is 0.
       console.log(animals.indexOf("parrot"));
 
     </script>
