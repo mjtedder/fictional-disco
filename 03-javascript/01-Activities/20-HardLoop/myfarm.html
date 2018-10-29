@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+
+<head>
+
+    <meta charset='utf-8'>
+    <title>My Farm</title>
+
+</head>
+
+<body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script type='text/javascript'>
+
+    // Starting from scratch, write code that loops through the following array
+    // and logs the name of each animal on the farm to the console.
+
+    var myFarm =['chickens', 'pigs', 'cows', 'horses', 'ostriches'];
+
+    for(i=0; i<myFarm.length; i++) {
+        console.log(myFarm[i]);
+
+    // Then check if the first letter in the animal's name begins with a "c" or "o".
+    // If it does, create an alert saying, "Starts with 'c' or 'o'!"
+
+    if(myFarm[i].charAt(0) === 'c' || myFarm[i].charAt(0) === 'o') {
+        alert('Starts with a C or O!');
+    }
+
+    else {
+        alert('Does not start with a C or O!');
+    }
+}
+
+    </script>
+</body>
