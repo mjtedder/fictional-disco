@@ -22,39 +22,46 @@
 
     <script type='text/javascript'>
 
-    // 1. User chooses r, p, or s on keyboard representing rock, paper, or scissors.
-    document.addEventListener('keypress', testPress);
+    // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
 
-    function testPress() {
-        alert('Key pressed!')
-    }
-    // 2. Computer chooses a random value in a list of r, p, or s.
+    const computerChoices = ['r', 'p', 's'];
 
-    // 3. We determine if the user wins or not.
 
-    // 4. If user picks rock and if computer picks scissors then user wins.
+    // Creating variables to hold the number of wins, losses, and ties. They start at 0.
 
-    // 5. If user picks rock and if computer picks paper then user loses
+    let wins = 0;
+    let losses = 0;
+    let ties = 0;
 
-    // 6. If user picks scissors and if computer picks rock then user loses.
+    // This function is run whenever the user presses a key.
 
-    // 7. If user picks scissors and if computer picks paper then user wins.
+        document.onkeyup = function(e) {
+            e.key
+        }
 
-    // 8. If user picks paper and if computer picks rock then user wins.
+    // Determines which key was pressed.
 
-    // 9. If user picks paper and if computer picks scissors then user loses.
+    // Randomly chooses an option from the computerChoices array.
+        
+    // If user picks rock and if computer picks paper then user loses
 
-    // 10. If user picks the same as computer then they tie.
+    // Else if user picks scissors and if computer picks rock then user loses.
 
-    // 11. We then add to their score.
+    // Else if user picks scissors and if computer picks paper then user wins.
 
-    // 12. If user wins then we add one to their wins.
+    // Else if user picks paper and if computer picks rock then user wins.
 
-    // 13. If user loses then we add one to their losses.
+    // Else if user picks paper and if computer picks scissors then user loses.
 
-    // 14. If user ties then we add one to their ties.
+    // Else if user picks the same as computer then they tie.
 
-    // 15. The user then presses r, p, or s to play again.
+    // If user wins then we add one to their wins.
+
+    // If user loses then we add one to their losses.
+
+    // If user ties then we add one to their ties.
+
+    // The user then presses r, p, or s to play again.
 
     </script>
 </body>
