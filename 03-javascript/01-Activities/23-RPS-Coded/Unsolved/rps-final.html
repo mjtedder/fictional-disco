@@ -36,32 +36,45 @@
     // This function is run whenever the user presses a key.
 
         document.onkeyup = function(e) {
-            e.key
+
+            //Determines which key was pressed.
+
+            let userGuess = e.key;
+
+            // Randomly chooses an option from the computerChoices array.
+
+            let computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+            // If user picks rock and if computer picks paper then user loses.
+
+            if ((userGuess === 'r') || (userGuess === 'p') || (userGuess === 's')) {
+
+                if (userGuess === 'r' && computerGuess === 'p') {
+                losses++;
+            }   else if (userGuess === 'r' && computerGuess === 's') {
+                wins++;
+            }   else if (userGuess === 's' && computerGuess === 'r') {
+                losses++;
+            }   else if (userGuess === 's' && computerGuess === 'p') {
+                wins++;
+            }   else if (userGuess === 'p' && computerGuess === 'r') {
+                wins++;
+            }   else if (userGuess === 'p' && computerGuess === 's') {
+                losses++;
+            }   else if (userGuess === computerGuess) {
+                ties++;
+            }
+
+            console.log('USER PICKS: ' + userGuess);
+            console.log('COMPUTER PICKS: ' + computerGuess);
+            console.log('========================================');
+            console.log('WINS: ' + wins);
+            console.log('LOSSES: ' + losses);
+            console.log('TIES: ' + ties);
         }
-
-    // Determines which key was pressed.
-
-    // Randomly chooses an option from the computerChoices array.
-        
-    // If user picks rock and if computer picks paper then user loses
-
-    // Else if user picks scissors and if computer picks rock then user loses.
-
-    // Else if user picks scissors and if computer picks paper then user wins.
-
-    // Else if user picks paper and if computer picks rock then user wins.
-
-    // Else if user picks paper and if computer picks scissors then user loses.
-
-    // Else if user picks the same as computer then they tie.
-
-    // If user wins then we add one to their wins.
-
-    // If user loses then we add one to their losses.
-
-    // If user ties then we add one to their ties.
-
+    }
     // The user then presses r, p, or s to play again.
 
     </script>
 </body>
+</html>
