@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Favorite Foods</title>
+  </head>
+  <body>
+    <script type='text/javascript'>
+
+    // Creating an empty array for our favorite foods.
+
+    var favFoods = [];
+
+    // For-Loop that will repeat three times.
+
+    for (i = 1; i < 4; i++) {
+
+        // Each time it asks the user for their #1, #2, or #3 food.
+
+        var foods = prompt("What is your #" + i + " favorite food?")
+
+        // It then takes the user's response and "pushes" (or adds) the variable to the end of the favFoods array.
+
+        favFoods.push(foods);
+        console.log(favFoods);
+    }
+    // We then loop through the favFoods array...
+
+    for (j=0; j < favFoods.length; j++) {
+
+        // ...and create alert messages listing out each food in our array.
+        alert("Your favorite foods are " + favFoods[j] + "!")
+    }
+
+    </script>
+  </body>
+</html>
