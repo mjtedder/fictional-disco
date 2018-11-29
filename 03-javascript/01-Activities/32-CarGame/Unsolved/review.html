@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Game</title>
+</head>
+
+<body>
+
+  <script type="text/javascript">
+
+    function reWriteStats() {
+        alert("Car Make: " + car.make)
+    }
+
+    // Create car object with car stats
+    var car = {
+        "make": "Tesla",
+        "model": "Model 3",
+        "color": "Black",
+        "mileage": 1500,
+        "isDirty": false,
+
+        // Create a method called honk!
+        honk: function() {
+            alert("HONK! HONK!");
+        },
+        // Create a method driveToWork that adds 12 miles to the car.mileage property
+        driveToWork: function() {
+            alert('Old Mileage: ' + this.mileage);
+            this.mileage = this.mileage + 12;
+            alert('New Mileage: ' + this.mileage);
+        },
+        // Create a method called driveAroundTheWorld that adds 24,000 miles to car.mileage and changes isDirty to true
+        driveAroundTheWorld: function() {
+            alert('Old Mileage: ' + this.mileage);
+            this.mileage = this.mileage + 24000;
+            this.isDirty = true;
+            alert('New Mileage: ' + this.mileage);
+            alert('Is The Car Dirty? ' + this.isDirty);
+        }
+    }
+    // Create an event-listener that allows keyboard input
+    document.onkeyup = function(event) {
+        console.log(event.key)
+
+        // Cars methods assigned to a specific key
+        if (event.key.toLowerCase() == "d") {
+            car.driveToWork();
+        }
+        else if (event.key.toLowerCase() == "w") {
+            car.driveAroundTheWorld();
+        }
+        else if (event.key.toLowerCase() == "h") {
+            car.honk();
+        }
+        reWriteStats();
+    }
+    </script>
+
+</body>
+</html>
