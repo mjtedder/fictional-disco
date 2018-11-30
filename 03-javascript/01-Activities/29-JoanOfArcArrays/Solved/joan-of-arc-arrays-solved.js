@@ -15,3 +15,6 @@ var input = "Real Name";
 // How do I use input to get "Jehanne la Pucelle."
 var index = joanOfArcInfoParts.indexOf(input);
 var valuesIndex = joanOfArcInfoValues[index];
+
+console.log(index);
+console.log(valuesIndex);

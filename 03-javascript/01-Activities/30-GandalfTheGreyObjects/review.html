@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wizard Object</title>
+</head>
+
+<script type='text/javascript'>
+    var wizard = {
+        "real name": "Lennox Addock",
+        "age": 32,
+        "race": "Hume",
+        "knowsRaise": true,
+        "otherClasses": [
+            "Dark Knight",
+            "Archer",
+            "Dragoon",
+            "Paladin",
+            "Miner"
+        ]
+    };
+
+    // Object properties can be accessed with "bracket notation"
+    console.log(wizard["real name"]);
+
+    // Or with "dot notation" if the property has no spaces
+    console.log(wizard.race);
+
+    // Or with a variable that matches the name of the property
+    var Age = wizard.age;
+    console.log(Age);
+
+    // You can access arrays and their properties from an object
+    console.log(wizard["real name"] + " has " + wizard.otherClasses.length + " other classes.");
+
+    // Non-existent properties return undefined
+    console.log(wizard.yo);
+
+</script>

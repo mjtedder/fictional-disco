@@ -10,7 +10,7 @@ var joanOfArcInfoValues = [
   "Stands for French unity and nationalism."
 ];
 
-for(var i = 0; i < joanOfArcInfoParts.length; i++) {
+for (var i = 0; i < joanOfArcInfoParts.length; i++) {
   console.log(joanOfArcInfoParts[i]);
   console.log(joanOfArcInfoValues[i]);
   console.log('--------------');
