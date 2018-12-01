@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>jQuery Content!</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <title>JavaScript Content!</title>
 </head>
 <body>
 
@@ -31,17 +30,18 @@
 
     // 1. Create code that "grabs" the div with the matching id (#drink-options);
     // ...
-    var drinkDiv = $("#drinkOptions");
+    var drinkDiv = document.getElementById('drinkOptions');
 
-    for (var i = 0; i < drinkList.length; i++) {
-
-        var newDrinkDiv = $("<div>" + drinkList[i] + "<div>");
-
-        //$(newDrinkDiv).innerHTML(drinkList[i]);
+    // 2. Create a for loop that iterates through the drinkList array
+    for (i = 0; i < drinkList.length; i++) {
+        // Creating a new p element in DOM and saving to a variable
+        var newDrinkP = document.createElement('p');
+        // Add the contents of drinkList in paragraph
+        newDrinkP.textContent = drinkList[i];
 
 
         //drinkDiv.appendChild(drinkDiv);
-        drinkDiv.append(newDrinkDiv);
+        drinkDiv.appendChild(newDrinkP);
 
     }
 
