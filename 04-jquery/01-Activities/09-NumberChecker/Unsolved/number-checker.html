@@ -59,16 +59,18 @@
   <script type="text/javascript">
     $(document).ready(function() {
 
-      // Here we create the on click event that gets the user"s pick
-      $(".container").on("click", ".btn-choice", function() {
+      // Add code to have the computer guess a random number between 1 and 4
+        var randomNumber = Math.floor(Math.random() * 4 + 1)
+        console.log("Computer Pick: " + randomNumber)
 
-        // Add code to have the computer guess a random number between 1 and 4
-          var randomNumber = Math.floor(Math.random() * 4 + 1)
-          console.log(randomNumber)
-        });
-        // Then determine which button was clicked
+ // Here we create the on click event that gets the user"s pick
+ $(".container").on("click", ".btn-choice", function() {
+      // Then determine which button was clicked
+          var yourPick = $(this).val();
+          console.log("Your Pick: " + yourPick);
         // Compare the computer and user guess
         // Inform the user if the've guessed correctly or incorrectly
+      });
     });
   </script>
 
