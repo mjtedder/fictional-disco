@@ -69,7 +69,12 @@
           var yourPick = $(this).val();
           console.log("Your Pick: " + yourPick);
         // Compare the computer and user guess
-        // Inform the user if the've guessed correctly or incorrectly
+        if (yourPick == randomNumber) {
+          // Inform the user if the've guessed correctly or incorrectly
+            $('#result').html("YOU WIN!");
+          } else {
+            $('#result').html("YOU LOSE!");
+          }
       });
     });
   </script>
