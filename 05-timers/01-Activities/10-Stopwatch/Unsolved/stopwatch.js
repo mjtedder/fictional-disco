@@ -47,7 +47,8 @@ var stopwatch = {
 
     //  TODO: Use clearInterval to stop the count here and set the clock to not be running.
   if (clockRunning) {
-    intervalId = clearInterval()
+    intervalId = clearInterval(intervalId)
+    clockRunning = false
   }
 
   },
@@ -58,9 +59,9 @@ var stopwatch = {
     //        and save the result in a variable.
     var lap = stopwatch.timeConverter(stopwatch.time)
     //  TODO: Add the current lap and time to the "laps" div.
-      $("#laps").text(lap)
+      $("#laps").append("<p>Lap " + stopwatch.lap + " : " + lap + "</p>")
     //  TODO: Increment lap by 1. Remember, we can't use "this" here.
-      lap++;
+      stopwatch.lap++;
   },
   count: function() {
 
