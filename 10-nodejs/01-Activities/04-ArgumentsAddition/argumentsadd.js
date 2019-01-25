@@ -1,7 +1,11 @@
 // Combines two command line arguments (strings).
-// console.log(process.argv[2] + process.argv[3]);
+console.log(process.argv[2] + process.argv[3]);
+
+console.log('=================================================');
 
 // Adds two command line arguments (numbers).
 console.log(parseFloat(process.argv[2]) + parseFloat(process.argv[3]));
 
-console.log(parseFloat(process.argv[4]) - parseFloat(process.argv[5]));
+console.log('====================================================');
+
+console.log(parseFloat(process.argv[2]) - parseFloat(process.argv[3]));
