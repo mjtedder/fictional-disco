@@ -4,6 +4,4 @@ const bands = {
     hiphop: 'People Under The Stairs'
 }
 
-module.exports = {
-    bands: bands
-}
+module.exports = bands;
