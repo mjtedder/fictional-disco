@@ -1,11 +1,12 @@
-/* var arg1 = parseFloat(process.argv[2])
+// Original solution
+var arg1 = parseFloat(process.argv[2])
 var arg2 = parseFloat(process.argv[3])
 
 if (arg1 === arg2) {
-    console.log('True')
+    console.log(true)
 } else {
-    console.log('False')
-} */
+    console.log(false)
+}
 
 // Refactored solution
 console.log(process.argv[2] === process.argv[3])
