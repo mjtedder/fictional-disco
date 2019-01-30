@@ -12,16 +12,26 @@
 const axios = require('axios')
 
 // Grab or assemble the movie name and store it in a variable called "movieName"
-var movieName = process.argv[2];
-// ...
+var movieName = process.argv
+
+// Splicing the argument into an array of 2
+movieName.splice(0, 2)
+//console.log(movieName)
+
+// We then join the array with a '+' sign
+var stringArr = movieName.join('+')
+
+// Encode the string
+var combinedName = encodeURI(stringArr)
+//console.log(combinedName)
 
 
 // Then run a request with axios to the OMDB API with the movie specified
-var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
+var queryUrl = "http://www.omdbapi.com/?t=" + combinedName + "&y=&plot=short&apikey=trilogy";
 
 
 // This line is just to help us debug against the actual URL.
-console.log(queryUrl);
+console.log(queryUrl)
 
 
 // Then create a request with axios to the queryUrl
