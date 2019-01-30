@@ -1,4 +1,4 @@
-# OMDB Request Interactive
+# OMDB Axios Interactive
 
 ## File
 
@@ -18,4 +18,4 @@
 
 * Start by figuring out what your API URL should be then use the starter code as a guide.
 
-* Remember to `npm install request` or else your code will not work no matter what
+* Remember to `npm install axios` or else your code will not work no matter what
