@@ -22,7 +22,7 @@ const geocoder = NodeGeocoder(options)
 // Take in the command line arguments
 const city = process.argv[2]
 const state = process.argv[3]
-const address = city + state
+const address = city + " " + state
 
 // Build your address as an array or string
 // Geocoding
