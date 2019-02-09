@@ -4,7 +4,7 @@ DROP DATABASE IF EXISTS favorite_db;
 CREATE DATABASE favorite_db;
 
 -- Make it so all of the following code will affect favorite_db --
-
+USE favorite_db;
 -- Creates the table "favorite_foods" within favorite_db --
 CREATE TABLE favorite_foods (
   -- Make a string column called "food" which cannot contain null --
@@ -28,9 +28,9 @@ CREATE TABLE favorite_movies (
   -- Create a string column called "movie" which cannot be null --
   movie VARCHAR(30) NOT NULL,
   -- Create a boolean column called "five_times" that sets the default value to false if nothing is entered --
-  five_times BOOLEAN,
+  five_times BOOLEAN DEFAULT false,
   -- Make an integer column called "score" --
   score INTEGER(10),
   -- Set the primary key of the table to id --
-  PRIMARY KEY ID
+  PRIMARY KEY
 );
