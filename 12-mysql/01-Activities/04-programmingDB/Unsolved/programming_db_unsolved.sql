@@ -23,4 +23,8 @@ CREATE TABLE programming_languages(
 -- Create new example rows
 INSERT INTO programming_languages (language, rating) VALUES
   ('Java', 95), ('Python', 50), ('C#', 80)
-  
+
+-- Update a row
+UPDATE programming_languages
+SET language = 'JavaScript'
+WHERE id = 1;
