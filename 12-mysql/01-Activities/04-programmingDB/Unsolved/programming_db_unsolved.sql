@@ -13,9 +13,6 @@ CREATE TABLE programming_languages(
   language VARCHAR(30),
   -- Create an integer column called "rating" --
   rating INTEGER(10),
-  -- Create a boolean column called "mastered" which will automatically fill --
-  -- with true when a new row is made and the value isn't otherwise defined. --
-  mastered BOOLEAN DEFAULT true,
   -- Set the id as this table's primary key
   PRIMARY KEY (id)
 );
@@ -24,7 +21,14 @@ CREATE TABLE programming_languages(
 INSERT INTO programming_languages (language, rating) VALUES
   ('Java', 95), ('Python', 50), ('C#', 80)
 
+-- BONUS
+-- Add a column called "mastered" and set default value to 'true'
+ALTER TABLE programming_languages
+ADD mastered BOOLEAN NOT NULL
+CONSTRAINT mastered DEFAULT true
 -- Update a row
 UPDATE programming_languages
 SET language = 'JavaScript'
 WHERE id = 1;
+
+SELECT * FROM programming_languages
