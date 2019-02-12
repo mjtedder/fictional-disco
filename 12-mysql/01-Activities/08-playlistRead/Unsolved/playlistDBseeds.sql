@@ -21,4 +21,16 @@ VALUES ('Origami', 'Aqueous', 'Prog Rock');
 INSERT INTO playlist (title, artist, genre)
 VALUES ('You Are A Tourist', 'Death Cab For Cutie', 'Alternative Rock');
 
+INSERT INTO playlist (title, artist, genre)
+VALUES ('Spectacle', 'The Disco Biscuits', 'Prog Rock');
+
+INSERT INTO playlist (title, artist, genre)
+VALUES ('Reality Check', 'Binary Star', 'Hip Hop');
+
+INSERT INTO playlist (title, artist, genre)
+VALUES ('Think Different', 'Nujabes feat. Substantial', 'Hip Hop');
+
+INSERT INTO playlist (title, artist, genre)
+VALUES ('All Apologies', 'Nirvana', 'Alternative Rock');
+
 SELECT * FROM playlist;
