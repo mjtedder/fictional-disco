@@ -30,10 +30,17 @@ function start() {
         .then(function (answers) {
             if (answers.choice === "POST AN ITEM") {
                 postBid();
+            } else if (answers.choice === "EXIT") {
+                endConnection();
             } else {
                 makeBid();
             }
         });
+}
+
+// end connection
+function endConnection() {
+    connection.end();
 }
 
 // post bid
@@ -83,17 +90,37 @@ function makeBid() {
         "SELECT * FROM auctions",
         function (err, res) {
             if (err) throw err;
-            inquirer.prompt({
-                type: 'list',
-                name: 'item',
-                message: 'Choose the item you want to bid on.',
-                choices: choiceArr = function () {
-                    var choiceArr = []
-                    for (i = 0; i < res.length; i++) {
-                        //console.log(res[i].item_name);
-                        choiceArr.push(res[i].item_name)
+            inquirer.prompt([{
+                    type: 'list',
+                    name: 'item',
+                    message: 'Choose the item you want to bid on:',
+                    choices: choiceArr = function () {
+                        var choiceArr = []
+                        for (i = 0; i < res.length; i++) {
+                            //console.log(res[i].item_name);
+                            choiceArr.push(res[i].item_name)
+                        }
+                        return choiceArr;
                     }
-                    return choiceArr;
+                },
+                {
+                    type: 'input',
+                    name: 'bid',
+                    message: 'How much would you like to bid?'
+                }
+            ]).then(function(answer) {
+                var userBid;
+                for (i = 0; i < res.length; i++) {
+                    if (res[i].item_name === answer.item) {
+                        userBid = res[i]
+                    }
+                }
+                if (userBid.highest_bid < parseInt(answer.bid)) {
+                    console.log('Congrats!')
+                    start();
+                } else {
+                    console.log('Sorry, try again.')
+                    start();
                 }
             })
         })
