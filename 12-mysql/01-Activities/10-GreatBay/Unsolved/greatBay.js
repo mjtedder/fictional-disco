@@ -108,7 +108,7 @@ function makeBid() {
                     name: 'bid',
                     message: 'How much would you like to bid?'
                 }
-            ]).then(function(answer) {
+            ]).then(function (answer) {
                 var userBid;
                 for (i = 0; i < res.length; i++) {
                     if (res[i].item_name === answer.item) {
@@ -116,8 +116,19 @@ function makeBid() {
                     }
                 }
                 if (userBid.highest_bid < parseInt(answer.bid)) {
-                    console.log('Congrats!')
-                    start();
+                    connection.query(
+                        'UPDATE auctions SET ? WHERE ?', [{
+                                highest_bid: answer.bid
+                            },
+                            {
+                                id: userBid.id
+                            }
+                        ], function(err) {
+                            if (err) throw err;
+                            console.log('Congrats! You are are the highest bidder!')
+                            start()
+                        }
+                    )
                 } else {
                     console.log('Sorry, try again.')
                     start();
