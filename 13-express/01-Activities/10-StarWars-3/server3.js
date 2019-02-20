@@ -39,20 +39,20 @@ app.get("/api/characters", function(req, res) {
   return res.json(characters);
 });
 
-// What does this route do?
+// What does this route do? This is a custom route that takes in the user input
 app.get("/api/characters/:character", function(req, res) {
-  // What does this code do?
+  // What does this code do? This saves the user input to the variable chosen, then logs it to the console
   var chosen = req.params.character;
   console.log(chosen);
 
-  // What does this code do?
+  // What does this code do? This loops through the characters array and if it matches the user input, returns the data for that particular route
   for (var i = 0; i < characters.length; i++) {
     if (chosen === characters[i].routeName) {
       return res.json(characters[i]);
     }
   }
 
-  // What does this code do?
+  // What does this code do? If there is no match, then it returns "No character found"
   return res.send("No character found");
 });
 
